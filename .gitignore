@@ -1,0 +1,11 @@
+# Impede o envio da chave Anthropic
+.env
+
+# Evita enviar todo o ambiente virtual e suas dependências
+.venv/
+
+# Ignora arquivos temporários gerados pelo Python
+__pycache__/
+
+# Evita enviar o banco vetorial local, que será gerado pelo projeto
+chroma_db/
